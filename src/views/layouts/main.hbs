@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
   <title>Seguimiento tareas</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   
@@ -12,6 +14,59 @@
 <body >
   {{>navbar}}
   {{{body}}}
+
+<footer class="py-3" style="background-color: #67823a; color: white;">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-2">
+        <h6>Mantente conectado</h6>
+        <div>
+          <a href="#" class="text-white mx-1">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="text-white mx-1">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#" class="text-white mx-1">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="text-white mx-1">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <h6>Media Evolution</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="#" class="text-white">Conoce más</a></li>
+          <li><a href="#" class="text-white">Contabilidad para el hogar</a></li>
+          <li><a href="#" class="text-white">Universidad</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <h6>Información</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a href="#" class="text-white">Privacidad</a></li>
+          <li><a href="#" class="text-white">Sobre nosotros</a></li>
+          <li><a href="#" class="text-white">Prensa</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row text-center small">
+      <div class="col-md-6 mb-1">
+        <p class="mb-0"><i class="bi bi-globe"></i> Buenos Aires, AR</p>
+        <p class="mb-0"><i class="bi bi-envelope-fill"></i> info@example.com</p>
+        <p class="mb-0"><i class="bi bi-telephone-fill"></i> +54 9 11 xxxx xxxxx</p>
+      </div>
+      <div class="col-md-6 mb-1">
+        <p class="mb-0">&copy; 2024 Media Evolution. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
